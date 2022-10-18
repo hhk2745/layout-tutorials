@@ -3,7 +3,6 @@
   height: auto;
 
   display: flex;
-  justify-content: space-between;
   padding: 12px 24px;
   align-items: center;
   background-color: var(--background-color);
@@ -11,6 +10,7 @@
 }
 
 .logo {
+  flex:none;
   font-size: 24px;
   /* color:white; */
 }
@@ -20,9 +20,10 @@
 }
 
 .menu {
+  flex:1;
   display: flex;
   padding-left: 0;
-  justify-content: space-around;
+  justify-content: center;
   /* width: 400px; */
 }
 
@@ -41,7 +42,10 @@
 }
 
 .icon li a{
-  padding : 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 44px;
 }
 
 .hamburger{
