@@ -12,7 +12,8 @@ body {
   align-items: center;
   justify-content: space-between;
   /* 임시 */
-  border-bottom: 1px solid;
+  border-top: 1px;
+  border-bottom: 1px;
   border-color: var(--border-color);
   position: sticky;
   top: 0;
@@ -35,7 +36,7 @@ body {
   display: flex;
   border: 1px solid var(--border-color);
   border-radius: 20px;
-  padding: 7px 15px;
+  padding: 7px;
   align-items: center;
 }
 .search-icon{
@@ -65,13 +66,4 @@ body {
 
 .profile-image{
   width: 2rem;
-}
-
-.main{
-  padding: 20px 0;
-  max-width: 80rem;
-  display: flex;
-  /* justify-content: center; */
-  margin: 0 auto;
-  /* width: 900px; */
 }
