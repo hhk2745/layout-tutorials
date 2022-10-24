@@ -4,9 +4,37 @@ body {
 }
 
 :root{
-  --border-color: #b3b3b3
+  --border-color: #b3b3b3;
+  --key-color: #0090f9;
+  --key-soft-color: #91d1ff;
 }
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.mb-8{
+  margin-bottom: 2rem;
+}
+.ml-4{
+  margin-left: 4px;
+}
+.ad-close{
+  cursor: pointer;
+}
+.h-5{
+  width: 1.25rem;
+} 
+.w-5{
+  width: 1.25rem;
+}
+.icon-notice{
+  background-color: var(--key-soft-color);
+  opacity: 1;
+  color: white;
 
+  padding: 5px;
+  border-radius: 8px;
+}
 .header{
   display: flex;
   align-items: center;
@@ -74,4 +102,70 @@ body {
   /* justify-content: center; */
   margin: 0 auto;
   /* width: 900px; */
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: 10px;
+  width: 180px;
+}
+
+.list-container1{
+  display: flex;
+  flex-direction: column;
+}
+
+.header1{
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.list-wrap{
+  padding-top: 1rem;
+  border-top: 1px solid #dadada;
+}
+.list-wrap li{
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-mc{
+  color: var(--key-color);
+}
+.ad-container{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-icon-wrap{
+  display: flex;
+  justify-content: end;
+  
+  right: 0;
+  color: rgb(120, 206, 218);
+}
+.ad-image img{
+  width: 100%;
+}
+
+
+.tip-wrap{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 0.75rem;
+  background-color: #ecf6fd;
+  border-radius: 8px
+}
+
+.main-section{
+  margin: 0 32px;
+}
+
+.right-side{
+  width: 180px;
 }
